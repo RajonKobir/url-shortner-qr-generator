@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*font-family: 'Poppins', sans-serif;*/
+
+
+@font-face {
+    font-family: sfui;
+    src: url(../fonts/SFUIText-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: sfui;
+    src: url(../fonts/SFUIText-Light.ttf);
+    font-weight: 300;
+}
+
+
+
+html,
+body {
+    height: 100%;
+    padding: 0px;
+}
+.main_contant {
+    min-height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+button:focus,
+textarea:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: normal;
+    font-family: 'sfui', sans-serif;
+    font-weight: 300;
+}
+
+a,
+input,
+button,
+select,
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 0;
+}
+
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section_padding {
+    padding: 60px 0px;
+}
+
+.section_title {
+    margin-bottom: 50px;
+}
+
+.section_title p {
+    text-align: center;
+}
+
+
+.section_title h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.section_title p {
+    font-size: 16px;
+    color: #666666;
+}
+
+/*==============================================================================================
+                                              Base css
+================================================================================================*/
+
+/*header start*/
+/* .header {
+    padding-top: 10px;
+} */
+
+/* .header .logo {}
+
+.header .logo img {} */
+
+/*header end*/
+
+/*inpute_aria start*/
+.input_area {
+    position: relative;
+    padding: 10px 0;
+}
+
+.real_url_input_area {
+    position: relative;
+}
+
+.input_area label {
+    font-size: 20px;
+    font-weight: 600;
+    font-weight: 700;
+}
+
+.input_area input {
+    max-width: 430px;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+
+.leb_1 {
+    width: 100%;
+    max-width: 430px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    height: 40px;
+    margin-bottom: 0;
+    display: block;
+    font-weight: 300;
+}
+
+
+.input_area button:focus,
+.input_area input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input_area button {
+    position: absolute;
+    bottom: 0px;
+    right: -40px;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn_1 {
+    background-color: #525FFB;
+}
+
+.btn_2 {
+    background-color: #FD5353;
+}
+
+
+
+.input_area .btn {
+    font-size: 18px;
+}
+
+/* .bg_image {} */
+
+.bg_image img {
+    width: 85%;
+    float: right;
+}
+
+/*inpute_aria end*/
+
+/*qr_area start*/
+.qr_area {
+    margin-top: 30px;
+}
+
+
+.qr_area .text h2 {
+    font-size: 27px;
+    margin-top: 20px;
+    font-family: 'sfui', sans-serif;
+}
+
+.qr_area .text h2 span {
+    display: block;
+}
+
+.qr_area .btn_group {
+    display: inline-flex;
+}
+
+#download_button {
+    width: 140px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50px;
+}
+#share_button {
+    width: 140px;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.bg {
+    background-color: #525FFB;
+}
+
+/*qr_area end*/
+
+/*footer start*/
+
+
+
+.content {
+    padding-bottom: 45px;
+}
+
+.content h3 {
+    font-size: 34px;
+    font-weight: 400;
+    font-style: italic;
+    padding: 15px 50px;
+}
+
+.content span {
+    color: #D90D38;
+    font-weight: 600;
+}
+
+.content a {
+    margin: 50px;
+    padding: 12px 18px;
+    background-color: #fff;
+    border-radius: 50px;
+    color: #FD5353;
+}
+
+
+/*footer end*/
+
+.footer_item {
+    margin-bottom: 30px;
+}
+.footer_item a img{
+    width: 100%;
+}
+
+
+.bg_shadow {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+footer {
+    padding: 10px 0;
+    background-color: #F5F5F5;
+}
+
+footer ul {
+    text-align: right;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li a {
+    color: #333;
+    font-weight: 500;
+    padding: 0 10px;
+    transform: .3s;
+}
+
+footer ul li a:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+/* rajon css */
+
+
+
+.general_form{
+    position: relative;
+}
+.general_form i {
+    position: absolute;
+    left: 15px;
+    top: 55px;
+}
+/* tooltip styles starts here */
+.tooltip_style {
+    position: relative;
+}
+  
+.tooltip_style .tooltiptext1 {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 99;
+    opacity: 0;
+    transition: opacity 0.3s;
+    right: -40px;
+    top: -75px;
+}
+.tooltip_style .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 99;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltip_style .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip_style .tooltiptext1::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+.tooltip_style:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip_style:hover .tooltiptext1 {
+    visibility: visible;
+    opacity: 1;
+}
+/* tooltip styles ends here */
+
+
+
+/* showing or hide recaptcha */
+#re_captcha{
+    display: none;
+}
+
+
+
+#left_qr_area{
+    display: none;
+}
+#right_qr_area{
+    display: none;
+}
+#short_url_area{
+    display: none;
+}
+
+
+/* modal_dialog css here */
+/* modal_dialog css here */
+
+/* The Modal (background) */
+.modal_dialog {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal_dialog-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    background: #fff;
+}
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal_dialog-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  .modal_dialog-body {padding: 2px 16px;}
+  
+  .modal_dialog-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+
+/* modal_dialog css ends here */
+/* modal_dialog css ends here */
+
+
+
+.logo img{
+    height: 50px;
+}
+
+header {
+    padding: 10px 0;
+    /* background-color: #F5F5F5; */
+}
+header ul {
+    text-align: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: #333;
+    font-weight: 500;
+    padding: 0 10px;
+    transform: .3s;
+}
+
+header ul li a:hover {
+    color: #000;
+}
+
+
+/* share button modal */
+.social_icon2 {
+    height: 50vh;
+}
+.social_icon2 i {
+    font-size: 60px;
+    margin-left: 60px;
+    color: #fff;
+}
+.fab.fa-twitter {
+    margin-left: 0;
+}
+/* share button modal ends here */
+
+
+#donate_button{
+    cursor: pointer;
+}
+/* #myModal2.modal_dialog {
+    padding-top: 200px;
+} */
+
+
+.helping_image img{
+    width: 100%;
+}
+
+#dropdown_menu {
+    text-align: center;
+    background: #525FFB;
+}
+#dropdown_menu li {
+    display: inline;
+    margin-left: 5px;
+}
+#dropdown_menu li:first-child {
+    margin-left: 0;
+}
+#dropdown_menu li a i {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 2px;
+}
+
+
+
+
+/* rajon css ends here */
+
+
+
+
+
+
